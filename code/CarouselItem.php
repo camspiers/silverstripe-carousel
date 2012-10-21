@@ -26,12 +26,12 @@ class CarouselItem extends DataObject
         $fields->push(new TextField('Title', 'Title'));
         $fields->push(new TextareaField('Content', 'Content'));
 
-        $fields->push(new FileAttachmentField('Image', 'Image'));
-        $fields->push(new FileAttachmentField('ExtraImage', 'Extra Image'));
+        $fields->push(new UploadField('Image', 'Image'));
+        $fields->push(new UploadField('ExtraImage', 'Extra Image'));
 
         $fields->push($this->dbObject('LinkType')->formField('Link Type'));
 
-        $fields->push(new SimpleTreeDropdownField('LinkedPageID', 'Linked Page', 'SiteTree'));
+        $fields->push(new TreeDropdownField('LinkedPageID', 'Linked Page'));
 
         $fields->push(new TextField('ExternalLink', 'External Link'));
 
