@@ -1,5 +1,5 @@
 {
-    "name": "heyday/silverstripe-carousel",
+    "name": "camspiers/silverstripe-carousel",
     "type": "silverstripe-module",
     "description": "Provide DataObjects and CMS extensions for easy carousel use",
     "license": "MIT",
