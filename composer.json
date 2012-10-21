@@ -1,0 +1,20 @@
+{
+    "name": "heyday/silverstripe-carousel",
+    "type": "silverstripe-module",
+    "description": "Provide DataObjects and CMS extensions for easy carousel use",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cam Spiers",
+            "email": "cameron@heyday.co.nz",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/camspiers/silverstripe-carousel/issues",
+        "source": "https://github.com/camspiers/silverstripe-carousel"
+    },
+    "require": {
+        "composer/installers": "1.0.0"
+    }
+}
