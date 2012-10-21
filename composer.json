@@ -1,5 +1,5 @@
 {
-    "name": "heyday/silverstripe-carousel",
+    "name": "camspiers/silverstripe-carousel",
     "type": "silverstripe-module",
     "description": "Provide DataObjects and CMS extensions for easy carousel use",
     "license": "MIT",
@@ -15,6 +15,7 @@
         "source": "https://github.com/camspiers/silverstripe-carousel"
     },
     "require": {
-        "composer/installers": "1.0.0"
+        "composer/installers": "1.0.0",
+        "unclecheese/dataobject_manager": "dev-master"
     }
 }
